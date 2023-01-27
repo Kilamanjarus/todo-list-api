@@ -13,8 +13,8 @@ class TaskController < ApplicationController
     p params
     task = Task.new
     task.title = params[:title]
-    task.date = params[:task]
-    task.status = params[:date]
+    task.date = params[:date]
+    task.status = params[:status]
     task.description = params[:description]
     task.deadline = params[:deadline]
 

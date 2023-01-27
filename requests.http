@@ -1,11 +1,21 @@
 ### Task Index
 GET http://localhost:3000/tasks
 
+### Tasks Post
+Post http://localhost:3000/tasks
+Content-Type: application/json
+
+{
+  "title": "First Test",
+  "date": "nil",
+  "status": "To do",
+  "description": "nil",
+  "deadline": "nil"
+}
+
 ### Tasks Show
 GET http://localhost:3000/tasks/1
 
-### Tasks Post
-Post http://localhost:3000/tasks
 
 ### Tasks Update
 Patch http://localhost:3000/tasks/1
