@@ -1,0 +1,14 @@
+### Task Index
+GET http://localhost:3000/tasks
+
+### Tasks Show
+GET http://localhost:3000/tasks/1
+
+### Tasks Post
+Post http://localhost:3000/tasks
+
+### Tasks Update
+Patch http://localhost:3000/tasks/1
+
+### Tasks Delete
+delete http://localhost:3000/tasks/1
