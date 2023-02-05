@@ -25,7 +25,7 @@ class TaskController < ApplicationController
   def update
     task = Task.find_by(id: params[:id])
     task.title = params[:title] || task.title
-    task.task = params[:task] || task.task
+    task.description = params[:description] || task.description
     task.date = params[:date] || task.date
     task.save
     render json: task.as_json
